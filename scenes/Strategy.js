@@ -8,7 +8,7 @@ export default class Strategy extends Phaser.Scene {
   }
 
   preload() {
-    this.load.json("qTable", "q_table.json");
+    this.load.json("qTable", "assets/q_table.json");
   }
 
   create() {
