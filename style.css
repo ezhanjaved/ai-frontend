@@ -1,11 +1,11 @@
 @font-face {
   font-family: "GameFont";
-  src: url("assets/MinimalPixel.ttf") format("truetype");
+  src: url("public/assets/MinimalPixel.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "UIFont";
-  src: url("assets/SuperPixel.ttf") format("truetype");
+  src: url("public/assets/SuperPixel.ttf") format("truetype");
 }
 
 body {
