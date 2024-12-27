@@ -333,7 +333,7 @@ export default class devilScene extends Phaser.Scene {
     this.knightDefend = false;
     this.enemyDefend = false;
 
-    this.enemyAttackDistance = 70;
+    this.enemyAttackDistance = 90;
     this.enemyWalkDistance = 400;
 
     this.knightHP = 100;
