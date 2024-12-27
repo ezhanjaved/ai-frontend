@@ -170,8 +170,6 @@ export default class knightScene extends Phaser.Scene {
       [ground1, ground2, ground3, ground4]
     );
 
-    this.physics.add.collider(this.knight, this.enemy);
-
     this.physics.add.overlap(
       this.knight,
       this.enemy,
@@ -209,7 +207,7 @@ export default class knightScene extends Phaser.Scene {
     this.knightDefend = false;
     this.enemyDefend = false;
 
-    this.enemyAttackDistance = 80;
+    this.enemyAttackDistance = 70;
     this.enemyWalkDistance = 400;
 
     this.knightHP = 100;
