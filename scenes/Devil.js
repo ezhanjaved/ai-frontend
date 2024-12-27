@@ -297,6 +297,8 @@ export default class devilScene extends Phaser.Scene {
       [ground1, ground2, ground3, ground4]
     );
 
+    this.physics.add.collider(this.knight, this.enemy);
+
     this.physics.add.overlap(
       this.knight,
       this.enemy,
